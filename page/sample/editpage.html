@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Edit Page | Forest 관리시스템</title>
+    <meta name="description" content=" Forest 관리시스템" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1400" />
+    <meta name="apple-mobile-web-app-title" content="SOOBIN KIM" /> 
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+    <link rel="stylesheet" href="../../fa/css/all.min.css" />
+    <link rel="stylesheet" href="../../css/web-font.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/dino-common.js"></script>
+
+  </head>
+  <body class="sub sample design editPage">
+    <div id="wrapper">
+      <a href="#" id="skip-nav">본문 바로가기</a>
+      <header id="header">
+        <div class="bar"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+        <div class="logo">
+          <h1><a href="#"><img alt="SOOBINKIM" src="../../img/logo.png" />Forest</a></h1>
+        </div>
+      </header>
+
+      <section id="gnb" >
+        <h2 class="ir-hidden">네비게이션</h2>
+        <div class="profile">
+          <img alt="picture" src="../../img/profile.jpg" />
+          <h3>내 프로필</h3>
+          <h4>KIMSOOBIN</h4>
+        </div>
+        <nav>
+          <ul class="top">
+            <li><a href="../overview/dashboard.html"><i class="fa-solid fa-border-all"></i>Dashboard</a></li>
+            <li><a href="../../page/sample/form.html"><i class="fa-solid fa-wand-magic-sparkles"></i>Form</a></li>
+            <li><a href="#"><i class="fa-solid fa-list"></i>List Page</a></li>
+            <li><a href="#"><i class="fa-solid fa-mountain-sun"></i>View Page</a></li>
+            <li class="on"><a href="../../page/sample/editpage.html"><i class="fa-solid fa-pen-to-square"></i>Edit Page</a></li>
+            <li><a href="../../page/sample/layout.html"><i class="fa-solid fa-table"></i>Layout</a></li>
+            <li><a href="../../page/sample/button.html"><i class="fa-solid fa-toggle-on"></i>Button</a></li>
+          </ul>
+          <ul class="bottom">
+            <li><a href="#"><i class="fa-solid fa-gear"></i>Setting</a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i>Opinion</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <main id="main">
+        <h2>Edit Page 샘플</h2>
+        <p>회원정보관리 페이지</p>
+
+        <table class="form-box">
+          <colgroup>
+            <col style="width: 120px;" />
+            <col />
+            <col style="width: 120px;" />
+            <col />
+          </colgroup>
+          <tbody>
+            <tbody>
+              <tr>
+                <td class="th"><label for="user-id"><em>*</em>아이디</label></td>
+                <td colspan="3">
+                  <input type="text" name="user_id" id="user-id" class="text" value="" />
+                  <a href="#" class="btn regular info">중복확인</a>
+                  <span class="essential">※ 필수입력 항목입니다.</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="password"><em>*</em>비밀번호</label></td>
+                <td><input type="password" name="password" id="password" class="text" value="" /></td>
+                <td class="th"><label for="password-re"><em>*</em>비밀번호(확인)</label></td>
+                <td>
+                  <input type="password" name="password-re" id="password-re" class="text" value="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="name"><em>*</em>이름</label></td>
+                <td colspan="3">
+                  <input type="text" name="name" id="name" class="text" value="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="birth"><em>*</em>생년월일</label></td>
+                <td>                
+                  <select name="" id="year">
+                    <option value="">년</option>
+                    <option value="s1">1991</option>
+                    <option value="s1">1992</option>
+                    <option value="s1">1993</option>
+                    <option value="s1">1994</option>
+                    <option value="s1">1995</option>
+                  </select>
+                   년 
+                  <select name="" id="month">
+                    <option value="">월</option>
+                    <option value="m1">1</option>
+                    <option value="m2">2</option>
+                    <option value="m3">3</option>
+                    <option value="m4">4</option>
+                    <option value="m5">5</option>
+                    <option value="m6">6</option>
+                    <option value="m7">7</option>
+                    <option value="m8">8</option>
+                    <option value="m9">9</option>
+                    <option value="m10">10</option>
+                    <option value="m11">11</option>
+                    <option value="m12">12</option>
+                  </select>
+                   월 
+                  <select name="" id="day">
+                    <option value="">일</option>
+                    <option value="d1">1</option>
+                    <option value="d2">2</option>
+                    <option value="d3">3</option>
+                    <option value="d4">4</option>
+                    <option value="d5">5</option>
+                    <option value="d6">6</option>
+                    <option value="d7">7</option>
+                    <option value="d8">8</option>
+                    <option value="d9">9</option>
+                    <option value="d10">10</option>
+                    <option value="d11">11</option>
+                    <option value="d12">12</option>
+                    <option value="d13">13</option>
+                    <option value="d14">14</option>
+                    <option value="d15">15</option>
+                    <option value="d16">16</option>
+                    <option value="d17">17</option>
+                    <option value="d18">18</option>
+                    <option value="d19">19</option>
+                    <option value="d20">20</option>
+                    <option value="d21">21</option>
+                    <option value="d22">22</option>
+                    <option value="d23">23</option>
+                    <option value="d24">24</option>
+                    <option value="d25">25</option>
+                    <option value="d26">26</option>
+                    <option value="d27">27</option>
+                    <option value="d28">28</option>
+                    <option value="d29">29</option>
+                    <option value="d30">30</option>
+                    <option value="d31">31</option>
+                  </select>
+                  일
+                </td>
+
+                <td class="th"><label for="gender"><em>*</em>성별</label></td>
+                <td>
+                  <ul class="input-radio">
+                    <li>
+                      <input type="radio" name="birth" id="birth-1" value="birth-1" /><label for="birth-1">음력</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="birth" id="birth-2" value="birth-2" checked="checked"/><label for="birth-2">양력</label>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="
+                  certification"><em>*</em>본인인증</label></td>
+                <td colspan="3">
+                  <input type="text" name="certification" id="certification" class="text" placeholder="readonly" value="(2013-10-22) 인증 완료" readonly="readonly" />
+                  <a href="#" class="btn regular info">재인증하기</a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4" class="essential-info">
+                  <span class="essential"><i class="fas fa-regular fa-triangle-exclamation"></i>연락처(전화번호, 휴대폰번호) 중 하나는 반드시 입력하셔야 합니다.
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="mobile"><em>*</em>휴대폰번호</label></td>
+                <td>                
+                  <select name="" id="first-number">
+                    <option value="null">없음</option>
+                    <option value="010">010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="017">017</option>
+                    <option value="018">018</option>
+                  </select>
+                   -
+                  <input type="text" name="middle-number" id="middle-number" class="text" value="" />
+                   -
+                  <input type="text" name="last-number" id="last-number" class="text" value="" />
+                </td>
+                <td class="th"><label for="mobile">전화번호</label></td>
+                <td>                
+                  <select name="" id="first-number">
+                    <option value="null">없음</option>
+                    <option value="02">02</option>
+                    <option value="031">031</option>
+                    <option value="032">032</option>
+                    <option value="033">033</option>
+                    <option value="041">041</option>
+                  </select>
+                   -
+                  <input type="text" name="middle-number" id="middle-number" class="text" value="" />
+                  -
+                  <input type="text" name="last-number" id="last-number" class="text" value="" />
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="email"><em>*</em>E-mail</label></td>
+                <td><input type="text" name="email" id="email" class="text" value="" placeholder="example@forest.com"/></td>
+              </tr>
+              <tr>
+                <td class="th"><label for="interests">마케팅(광고) 수신동의 여부</label></td>
+                <td>
+                  <a href="#" class="btn-toggle">
+                    <label for="">광고수신여부</label>
+                    <input type="hidden" name="" id="" data-left="N" data-right="Y" value="Y"/>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="newsletter-1">뉴스레터 수신</label></td>
+                <td>
+                  <ul class="input-radio">
+                    <li><input type="radio" name="newsletter" id="newsletter-1" value="home" /><label for="home">집</label></li>
+                    <li><input type="radio" name="newsletter" id="newsletter-2" value="office"/><label for="office">회사</label></li>
+                    <li><input type="radio" name="newsletter" id="newsletter-3" value="mailing"  checked="checked" /><label for="mailing">E-mail</label></li>
+                    <li><input type="radio" name="newsletter" id="newsletter-4" value="sms" /><label for="sms">SMS</label></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="interests"><em>*</em>관심분야</label></td>
+                <td colspan="3">
+                  <ul class="input-list">
+                    <li><input type="checkbox" name="language[]" id="language-1" value="lang-1" /><label for="language-1">html</label></li>
+                    <li><input type="checkbox" name="language[]" id="language-2" value="lang-2" /><label for="language-2">css</label></li>
+                    <li><input type="checkbox" name="language[]" id="language-3" value="lang-3" checked="checked"/><label for="language-3">Javascript-vanila</label></li>
+                    <li><input type="checkbox" name="language[]" id="language-4" value="lang-4" /><label for="language-4">Jquery</label></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="th"><label for="interests">기타사항</label></td>
+                <td colspan="3" class="editor">
+                  <textarea name="editor_content" id="editor-content" class="editor"></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </tbody>
+        </table>
+
+       
+
+      </main>
+
+      <footer id="footer">
+        <p>© Copyright 2022 KIMSOOBIN All Rights Reserved.</p>
+      </footer>
+
+
+
+
+    </div> <!-- #wrapper -->
+
+<script>
+'use strict';
+
+setToggle();
+function setToggle() {
+  $('a.btn-toggle').each(function() {
+    var value = $(this).find('input').val();
+    var valueLeft = $(this).find('input').attr('data-left');
+    var valueRight = $(this).find('input').attr('data-right');
+    $(this).attr({'title': value});
+    if (value === valueRight) {
+      $(this).addClass('on');
+    } else {
+      $(this).removeClass('on');
+    }
+  });
+
+  $('a.btn-toggle').on('click', function() {
+    var valueLeft = $(this).find('input').attr('data-left');
+    var valueRight = $(this).find('input').attr('data-right');
+    if ($(this).hasClass('on') === true) {
+      $(this).removeClass('on');
+      $(this).find('input').val(valueLeft);
+      $(this).attr({'title': valueLeft});
+    } else {
+      $(this).addClass('on');
+      $(this).find('input').val(valueRight);
+      $(this).attr({'title': valueRight});
+    }
+  });
+};
+
+
+
+</script>
+  </body>
+</html>

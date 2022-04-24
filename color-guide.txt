@@ -1,0 +1,80 @@
+[그라데이션]
+background: linear-gradient(154deg, #008fe2 0, #00b29c 100%);
+
+
+[background]
+body: #ffffff
+wrapper : #fafcfe
+
+rgba(255, 255, 255, 0.1)
+rgba(255, 255, 255, 0.05)
+rgba(255, 255, 255, 0.25)
+
+
+[border]
+box : #dfe8f1
+rgba(255, 255, 255, 0.2)  /  text 
+
+
+[border-radius]
+3px
+
+
+[button]
+default : #fefeff (border #dfe8f1)
+lime : #00a792
+sky : #65a6ff
+purple : #984dff
+yellow : #ffcc00
+
+
+
+
+[text]
+#333333
+blue : #337ab7 #1c82e1
+rgba(255, 255, 255, 0.8)
+
+icon : #0093d9 + 0.6
+dot : #1c82e1 + 0.3
+
+
+
+
+
+
+
+
+
+
+
+
+/// 참고
+apple color code
+
+파란색 : #0070c9
+주황색(강조 / new) : #ef5602
+초록색 : #009933
+빨간색 : #f82c3f
+
+
+(파스텔톤)
+노란색 : #fdde5c
+주황색 : #f8ab5e
+붉은색 : #f56a62
+보라색 : #a176c8
+파란색 : #759beb
+초록색 : #65beb3
+연초록 : #70db96
+
+
+Text : #333333 / #0066cc (파란색)
+border : #d6d6d6(회색)  #0070c9(파란색)  #c1e0fe (하늘색 / 포커스 outline)
+input border : #bbbbbb
+비활성화 : opacity 0.3
+
+버튼(파란색) : #0071e3
+
+
+
+

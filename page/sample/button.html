@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Button | Forest 관리시스템</title>
+    <meta name="description" content=" Forest 관리시스템" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1400" />
+    <meta name="apple-mobile-web-app-title" content="SOOBIN KIM" /> 
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+    <link rel="stylesheet" href="../../fa/css/all.min.css" />
+    <link rel="stylesheet" href="../../css/web-font.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/dino-common.js"></script>
+
+  </head>
+  <body class="sub button">
+    <div id="wrapper">
+      <a href="#" id="skip-nav">본문 바로가기</a>
+      
+      <header id="header">
+        <div class="bar"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+        <div class="logo">
+          <h1><a href="#"><img alt="SOOBINKIM" src="../../img/logo.png" />Forest</a></h1>
+        </div>
+      </header>
+
+      <section id="gnb" class="custom-scroll">
+        <h2 class="ir-hidden">네비게이션</h2>
+        <div class="profile">
+          <img alt="picture" src="../../img/profile.jpg" />
+          <h3>내 프로필</h3>
+          <h4>KIMSOOBIN</h4>
+        </div>
+        <nav>
+          <ul class="top">
+            <li><a href="../overview/dashboard.html"><i class="fa-solid fa-border-all"></i>Dashboard</a></li>
+            <li><a href="../../page/sample/form.html"><i class="fa-solid fa-wand-magic-sparkles"></i>Form</a></li>
+            <li><a href="#"><i class="fa-solid fa-list"></i>List Page</a></li>
+            <li><a href="#"><i class="fa-solid fa-mountain-sun"></i>View Page</a></li>
+            <li><a href="../../page/sample/editpage.html"><i class="fa-solid fa-pen-to-square"></i>Edit Page</a></li>
+            <li><a href="../../page/sample/layout.html"><i class="fa-solid fa-table"></i>Layout</a></li>
+            <li class="on"><a href="../../page/sample/button.html"><i class="fa-solid fa-toggle-on"></i>Button</a></li>
+          </ul>
+          <ul class="bottom">
+            <li><a href="#"><i class="fa-solid fa-gear"></i>Setting</a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i>Opinion</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <main id="main">
+        <h2>Button 샘플</h2>
+        <p>버튼 샘플Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices tincidunt urna, in pulvinar metus luctus ut. Maecenas mattis purus at pellentesque faucibus. Vestibulum sed condimentum tortor.</p>
+        <section class="container type-1">
+          <section>
+            <h3>Type of Button(a, button, input)</h3>
+            <div class="button-inner">
+              <a href="#" class="btn">a 태그버튼</a>
+              <button type="submit" class="btn">button 태그버튼</button>
+              <input type="submit" class="btn" value="테스트버튼" /> 
+            </div>
+          </section>
+        </section>
+        
+        <section class="container type-2">
+          <section>
+            <h3>Button Size</h3>
+            <div class="button-inner left">
+              <a href="#" class="btn small">a 태그버튼</a>
+              <button type="submit" class="btn small">button 태그버튼</button>
+              <input type="submit" class="btn small" value="테스트버튼" />
+            </div>
+
+            <div class="button-inner left">
+              <a href="#" class="btn regular">a 태그버튼</a>
+              <button type="submit" class="btn regular">button 태그버튼</button>
+              <input type="submit" class="btn regular" value="테스트버튼" />
+            </div>
+
+            <div class="button-inner left">
+              <a href="#" class="btn large">a 태그버튼</a>
+              <button type="submit" class="btn large">button 태그버튼</button>
+              <input type="submit" class="btn large" value="테스트버튼" />
+            </div>
+          </section>
+
+          <section>
+            <h3>Button Color</h3>
+            <div class="button-inner left">
+              <a href="#" class="btn regular disable">Disable</a>
+              <a href="#" class="btn regular default">Default</a>
+              <a href="#" class="btn regular info">Info</a>
+              <a href="#" class="btn regular reversal">Reversal</a>
+            </div>
+            <div class="button-inner left">
+              <a href="#" class="btn regular warning">Warning</a>
+              <a href="#" class="btn regular negative_empty">Negative</a>
+              <a href="#" class="btn regular negative_full">Negative</a>
+              <a href="#" class="btn regular positive_empty">Positive</a>
+              <a href="#" class="btn regular positive_full">Positive</a>
+            </div>
+            <div class="button-inner left">
+              <a href="#" class="btn regular palegreen">Palegreen</a>
+              <a href="#" class="btn regular yellow">Yellow</a>
+              <a href="#" class="btn regular darkorange">Darkorange</a>
+              <a href="#" class="btn regular darkbrown">Darkbrown</a>
+              <a href="#" class="btn regular junglegreen">Junglegreen</a>
+            </div>
+          </section>
+        </section>
+
+        <section class="container type-2">
+          <section>
+            <h3>Icon/Labled Button</h3>
+            <div class="button-inner left">
+              <a href="#" class="btn regular junglegreen labeled-left"><i class="fa-solid fa-user"></i>Labeled-left</a>
+              <a href="#" class="btn regular junglegreen labeled-right"><i class="fa-solid fa-user"></i>Labeled-right</a>
+              <a href="#" class="btn regular darkorange icon-left"><i class="fa-solid fa-user"></i>Icon-left</a>
+              <a href="#" class="btn regular darkorange icon-right"><i class="fa-solid fa-user"></i>Icon-right</a>
+            </div>
+            <div class="button-inner left">
+              <a href="#" class="btn regular warning labeled-left"><i class="fas fa-regular fa-triangle-exclamation"></i>Warning</a>
+              <a href="#" class="btn regular negative_full labeled-left"><i class="fas fa-regular fa-circle-minus"></i>Negative</a>
+              <a href="#" class="btn regular positive_full labeled-left"><i class="fa-regular fa-face-smile-beam"></i>Positive</a>
+              <a href="#" class="btn regular positive_empty labeled-right"><i class="fa-solid fa-check"></i>Ok</a>
+              <a href="#" class="btn regular info labeled-right"><i class="fa-regular fa-circle-check"></i>Success</a>
+            </div>
+            <div class="button-inner left">
+              <a href="#" class="btn regular warning icon-left "><i class="fa-solid fa-plus"></i>Add</a>
+              <a href="#" class="btn regular negative_empty icon-left"><i class="fa-solid fa-xmark"></i>Delete</a>
+              <a href="#" class="btn regular disable icon-left "><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+              <a href="#" class="btn regular reversal icon-right"><i class="fa-solid fa-check"></i>Ok</a>
+              <a href="#" class="btn regular info icon-right"><i class="fas fa-regular fa-circle-info"></i>Info</a>
+            </div>
+          </section>
+
+          <section>
+            <h3>Shape of Button</h3>
+            <div class="button-inner left">
+              <a href="#" class="btn darkorange icon-only icon-small"><i class="fa-solid fa-clock-rotate-left"></i><span class="ir-hidden">되돌리기</span></a>
+              <a href="#" class="btn darkorange icon-only icon-regular"><i class="fa-solid fa-lock"></i><span class="ir-hidden">보안</span></a>
+              <a href="#" class="btn darkorange icon-only icon-large"><i class="fa-solid fa-gear"></i><span class="ir-hidden">설정</span></a>
+            </div>
+            <div class="button-inner left">
+              <a href="#" class="btn darkorange circle circle-small"><i class="fa-solid fa-user"></i><span class="ir-hidden">사용자</span></a>
+              <a href="#" class="btn darkorange circle circle-regular"><i class="fa-solid fa-exclamation"></i><span class="ir-hidden">경고</span></a>
+              <a href="#" class="btn large darkorange circle circle-large"><i class="fa-solid fa-camera"></i><span class="ir-hidden">사진</span></a>
+            </div>
+            <div class="button-inner left">
+              <a href="#" class="btn small darkorange round">round-small</a>
+              <a href="#" class="btn regular darkorange round">round-regular</a>
+              <a href="#" class="btn large darkorange round">round-large</a>
+            </div>
+          </section>
+        </section>
+        <section class="container type-1">
+          <section>
+            <h3>Button Layout</h3>
+            <div class="button-inner left">
+              <a href="#" class="btn">a 태그버튼</a>
+              <button type="submit" class="btn">button 태그버튼</button>
+              <input type="submit" class="btn" value="테스트버튼" />
+            </div>
+  
+            <div class="button-inner center">
+              <a href="#" class="btn">a 태그버튼</a>
+              <button type="submit" class="btn">button 태그버튼</button>
+              <input type="submit" class="btn" value="테스트버튼" />
+            </div>
+  
+            <div class="button-inner right">
+              <a href="#" class="btn">a 태그버튼</a>
+              <button type="submit" class="btn">button 태그버튼</button>
+              <input type="submit" class="btn" value="테스트버튼" />
+            </div>
+  
+            <div class="button-inner justify">
+              <a href="#" class="btn left">a 태그버튼</a>
+              <button type="submit" class="btn left">button 태그버튼</button>
+              <input type="submit" class="btn left" value="테스트버튼" />
+  
+              <a href="#" class="btn">a 태그버튼</a>
+              <button type="submit" class="btn">button 태그버튼</button>
+              <input type="submit" class="btn" value="테스트버튼" />
+            </div>
+          </section>
+        </section>
+
+
+
+
+      </main>
+
+      <footer id="footer">
+        <p>© Copyright 2022 KIMSOOBIN All Rights Reserved.</p>
+      </footer>
+
+
+
+
+    </div> <!-- #wrapper -->
+
+<script>
+'use strict';
+
+
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form | Forest 관리시스템</title>
+    <meta name="description" content=" Forest 관리시스템" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1400" />
+    <meta name="apple-mobile-web-app-title" content="SOOBIN KIM" /> 
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+    <link rel="stylesheet" href="../../fa/css/all.min.css" />
+    <link rel="stylesheet" href="../../css/web-font.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/dino-common.js"></script>
+
+  </head>
+  <body class="sub sample design form">
+    <div id="wrapper">
+      <a href="#" id="skip-nav">본문 바로가기</a>
+      <header id="header">
+        <div class="bar"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+        <div class="logo">
+          <h1><a href="#"><img alt="SOOBINKIM" src="../../img/logo.png" />Forest</a></h1>
+        </div>
+      </header>
+
+      <section id="gnb" >
+        <h2 class="ir-hidden">네비게이션</h2>
+        <div class="profile">
+          <img alt="picture" src="../../img/profile.jpg" />
+          <h3>내 프로필</h3>
+          <h4>KIMSOOBIN</h4>
+        </div>
+        <nav>
+          <ul class="top">
+            <li><a href="../overview/dashboard.html"><i class="fa-solid fa-border-all"></i>Dashboard</a></li>
+            <li class="on"><a href="../../page/sample/form.html"><i class="fa-solid fa-wand-magic-sparkles"></i>Form</a></li>
+            <li><a href="#"><i class="fa-solid fa-list"></i>List Page</a></li>
+            <li><a href="#"><i class="fa-solid fa-mountain-sun"></i>View Page</a></li>
+            <li><a href="../../page/sample/editpage.html"><i class="fa-solid fa-pen-to-square"></i>Edit Page</a></li>
+            <li><a href="../../page/sample/layout.html"><i class="fa-solid fa-table"></i>Layout</a></li>
+            <li><a href="../../page/sample/button.html"><i class="fa-solid fa-toggle-on"></i>Button</a></li>
+          </ul>
+          <ul class="bottom">
+            <li><a href="#"><i class="fa-solid fa-gear"></i>Setting</a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i>Opinion</a></li>
+          </ul>
+        </nav>
+
+      </section>
+
+      <main id="main">
+        <h2>Form 샘플</h2>
+        <p>폼샘플</p>
+
+
+        <section class="container type-1">
+          <section>
+            <h3>기본 폼 예시</h3>
+            <ul class="form-box">
+              <li>아이디<input type="text" name="" id="name" class="text" placeholder="아이디" value="" /></li>
+              <li>비밀번호<input type="password" name="password" id="password" class="text" placeholder="비밀번호" value="" /></li>
+              <li>비밀번호확인<input type="text" name="" id="error" class="error text" placeholder="error" value="" /></li>
+              <li>날짜<input type="text" name="day" id="day" class="day text" placeholder="readonly" value="2022-04-19" readonly="readonly" /></li>
+              <li><textarea name="" id="" placeholder="특이사항"></textarea></li>
+              <li>
+                <select name="" id="">
+                  <option value="">-선택-</option>
+                  <option value="s1">AdobeXD</option>
+                  <option value="s1">Figma</option>
+                  <option value="s1">Zeplin</option>
+                  <option value="s1">Sketch</option>
+                  <option value="s1">기타</option>
+                </select>
+              </li>
+              <li>
+                <ul class="input-list">
+                  <li><input type="checkbox" name="language[]" id="language-1" value="lang-1" /><label for="language-1">html</label></li>
+                  <li><input type="checkbox" name="language[]" id="language-2" value="lang-2" /><label for="language-2">css</label></li>
+                  <li><input type="checkbox" name="language[]" id="language-3" value="lang-3" checked="checked"/><label for="language-3">Javascript-vanila</label></li>
+                  <li><input type="checkbox" name="language[]" id="language-4" value="lang-4" /><label for="language-4">Jquery</label></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="input-radio">
+                  <li><input type="radio" name="birth" id="birth-1" value="birth-1" /><label for="birth-1">음력</label></li>
+                  <li><input type="radio" name="birth" id="birth-2" value="birth-2" checked="checked"/><label for="birth-2">양력</label></li>
+                  <li><input type="radio" name="birth" id="birth-3" value="birth-3" /><label for="birth-3">모름</label></li>
+                </ul>
+              </li>
+
+            </ul>
+
+          </section>
+        </section>
+
+        <section class="container type-1">
+          <section>
+            <h3>폼 연습 예제</h3>
+            <ul class="form-box">
+              <li>
+                <div class="input-inner">
+                  <label for="user-id"><i class="fa-solid fa-user"><span>아이디</span></i></label>
+                  <input type="text" name="user-id" id="user-id" class="text" />
+                </div>
+              </li>
+              <li>
+                <div class="input-inner">
+                  <label for="user-id">아이디</label>
+                  <input type="text" name="user-id" id="user-id" class="text"/>
+                </div>
+              </li>
+              <li>
+                <div class="input-inner">
+                  <input type="text" name="user_id" id="user-id" class="text" placeholder="검색어를 입력하세요." />
+                  <a href="#" class="btn regular info icon-only"><i class="fa-solid fa-search"><span>검색</span></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="input-inner">
+                  <label for="search-box">통합검색</label>
+                  <select name="search-box" id="search-box">
+                    <option value="">-검색구분-</option>
+                    <option value="">글</option>
+                    <option value="">댓글</option>
+                    <option value="">글쓴이</option>
+                  </select>
+                  <input type="text" name="search" id="search" class="search text" />
+                  <a href="#" class="btn regular info">검색</a>
+
+                </div>
+              </li>
+
+
+
+
+
+
+
+
+            </ul>
+
+          </section>
+
+
+        </section>
+
+
+      </main>
+
+      <footer id="footer">
+        <p>© Copyright 2022 KIMSOOBIN All Rights Reserved.</p>
+      </footer>
+
+
+
+
+    </div> <!-- #wrapper -->
+
+<script>
+'use strict';
+
+
+
+</script>
+  </body>
+</html>
